@@ -1,0 +1,19 @@
+@import "@xyflow/react/dist/style.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#__next {
+  min-height: 100%;
+}
+
+body {
+  background: #101418;
+  color: #eef3f7;
+}
+
+.react-flow__node {
+  border-radius: 8px;
+}
